@@ -51,5 +51,4 @@ for sims in cursor.fetchall():
         print sim + " " + str(balance) + status
         time.sleep(30)
 
-
 cursor.close()

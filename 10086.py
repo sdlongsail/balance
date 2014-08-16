@@ -1,5 +1,5 @@
 ﻿# -*- coding: utf-8 -*-
-import string, requests
+import requests
 data = """
 <ROOT>
 <TEL_NO>%(sim)s</TEL_NO>
@@ -9,16 +9,13 @@ data = """
 <SYS_TYPE>1</SYS_TYPE>
 </ROOT>
 """
-number = "13954457341"
+number = "13853917410"
 data = data % {"sim" : number}
 
-print data
 headers = {'Content-Type': 'application/xml'} # set what your server accepts
 
 s = requests.session()
 r1 = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=291', data=data, headers=headers, verify=False)
-#print r1.text
-
 r2 = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=701', data=data, headers=headers, verify=False)
 balance = r2.text.replace("<ROOT><BALANCE>","").replace("</BALANCE></ROOT>","")
 print balance
