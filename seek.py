@@ -16,6 +16,8 @@ def seekBalance():
 </ROOT>
 """
     global simNumber
+    global balance
+
     data = data % {"sim" : simNumber}
     headers = {'Content-Type': 'application/xml'} # set what your server accepts
     s = requests.session()
@@ -29,11 +31,17 @@ def seekBalance():
         seekBalance()
 
     else:
-        global balance
         balance = r2.text.replace("<ROOT><BALANCE>","").replace("</BALANCE></ROOT>","")
         if balance == "":
             balance = 99999
     
+    try:
+        balance = float(balance)
+    except:
+        print "conver error, wait 10 seconds..."
+        time.sleep(10)
+        seekBalance()
+
     return balance
 
 
@@ -50,7 +58,7 @@ for sims in cursor.fetchall():
     for sim in sims:
         #global simNumber
         simNumber = sim
-        balance = float(seekBalance())
+        balance = seekBalance()
 
         #插入detail表
         sql = "insert into detail(sim, date, balance) values(%s, %s, %s)"
