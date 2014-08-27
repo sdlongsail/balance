@@ -26,8 +26,8 @@ def seekBalance():
         r2 = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=701', data = data, headers = headers, verify = False)
 
     except:
-        print "network error, wait 10 seconds..."
-        time.sleep(10)
+        print "network error, wait 20 seconds..."
+        time.sleep(20)
         seekBalance()
 
     else:
