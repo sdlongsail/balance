@@ -24,12 +24,10 @@ def seekBalance():
     try:
         r1 = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=291', data = data, headers = headers, verify = False)
         r2 = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=701', data = data, headers = headers, verify = False)
-
     except:
         print "network error, wait 20 seconds..."
         time.sleep(20)
         seekBalance()
-
     else:
         balance = r2.text.replace("<ROOT><BALANCE>","").replace("</BALANCE></ROOT>","")
         if balance == "":
