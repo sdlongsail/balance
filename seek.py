@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 import time, datetime, MySQLdb, requests
 
-#global var
-simNumber = 0
-balance = 0
-
 def seekBalance():
     data = """
 <ROOT>
@@ -15,10 +11,10 @@ def seekBalance():
 <SYS_TYPE>1</SYS_TYPE>
 </ROOT>
 """
-    global simNumber
+    global sim
     global balance
 
-    data = data % {"sim" : simNumber}
+    data = data % {"sim" : sim}
     headers = {'Content-Type': 'application/xml'} # set what your server accepts
     s = requests.session()
     try:
@@ -36,7 +32,7 @@ def seekBalance():
     try:
         balance = float(balance)
     except:
-        print "conver error, wait 10 seconds..."
+        print "convert error, wait 10 seconds..."
         time.sleep(10)
         seekBalance()
 
@@ -54,8 +50,6 @@ sql = "select sim from baseinfo where lastcheck < '" + str(yestoday) + "'"
 cursor.execute(sql)
 for sims in cursor.fetchall():
     for sim in sims:
-        #global simNumber
-        simNumber = sim
         balance = seekBalance()
 
         #插入detail表
