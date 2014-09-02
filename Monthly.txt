@@ -1,0 +1,132 @@
+//登录
+POST https://clientaccess.10086.cn:9043/tcpbus/mobile HTTP/1.1
+Host: clientaccess.10086.cn:9043
+Accept: */*
+Accept-Encoding: gzip
+Code: 291
+Content-Type: text/xml;charset=utf-8
+User-agent: GreenPoint.Inc
+Connection: close
+Content-Length: 125
+
+<ROOT>
+<TEL_NO>13853917425</TEL_NO>
+<PS>123123</PS>
+<EB>1</EB>
+<CLIENT_VER>1.9.1</CLIENT_VER>
+<SYS_TYPE>1</SYS_TYPE>
+</ROOT>
+
+
+//查询话费余额
+POST https://clientaccess.10086.cn:9043/tcpbus/mobile HTTP/1.1
+Host: clientaccess.10086.cn:9043
+Accept: */*
+Accept-Encoding: gzip
+Cookie: JSESSIONID=0000HjiPgWJD9yVdLqWllJJ1aIv:-1
+Code: 701
+Content-Type: text/xml;charset=utf-8
+User-agent: GreenPoint.Inc
+Connection: close
+Content-Length: 44
+
+<ROOT>
+<TEL_NO>13853917425</TEL_NO>
+</ROOT>
+
+
+
+//查询历史账单
+POST https://clientaccess.10086.cn:9043/tcpbus/mobile HTTP/1.1
+Host: clientaccess.10086.cn:9043
+Accept: */*
+Accept-Encoding: gzip
+Cookie: JSESSIONID=0000Qi8daxM_83HjBxEaCb77ygD:-1
+Code: 1101
+Content-Type: text/xml;charset=utf-8
+User-agent: GreenPoint.Inc
+Connection: close
+Content-Length: 131
+
+<ROOT>
+<TEL_NO>13853917425</TEL_NO>
+<QUERY_DATE>06</QUERY_DATE>
+<LOC_CITY>0539</LOC_CITY>
+<LOC_PROVINCE>531</LOC_PROVINCE>
+</ROOT>
+
+
+//查询套餐余量
+POST https://clientaccess.10086.cn:9043/tcpbus/mobile HTTP/1.1
+Host: clientaccess.10086.cn:9043
+Accept: */*
+Accept-Encoding: gzip
+Cookie: JSESSIONID=0000HjiPgWJD9yVdLqWllJJ1aIv:-1
+Code: 2801
+Content-Type: text/xml;charset=utf-8
+User-agent: GreenPoint.Inc
+Connection: close
+Content-Length: 103
+
+<ROOT>
+<TEL_NO>13853917425</TEL_NO>
+<LOC_CITY>0539</LOC_CITY>
+<LOC_PROVINCE>531</LOC_PROVINCE>
+</ROOT>
+
+
+//查询已订业务
+POST https://clientaccess.10086.cn:9043/tcpbus/mobile HTTP/1.1
+Host: clientaccess.10086.cn:9043
+Accept: */*
+Accept-Encoding: gzip
+Cookie: JSESSIONID=0000HjiPgWJD9yVdLqWllJJ1aIv:-1
+Code: 2701
+Content-Type: text/xml;charset=utf-8
+User-agent: GreenPoint.Inc
+Connection: close
+Content-Length: 103
+
+<ROOT>
+<TEL_NO>13853917425</TEL_NO>
+<LOC_CITY>0539</LOC_CITY>
+<LOC_PROVINCE>531</LOC_PROVINCE>
+</ROOT>
+
+
+//查询缴费历史
+POST https://clientaccess.10086.cn:9043/tcpbus/mobile HTTP/1.1
+Host: clientaccess.10086.cn:9043
+Accept: */*
+Accept-Encoding: gzip
+Cookie: JSESSIONID=0000HjiPgWJD9yVdLqWllJJ1aIv:-1
+Code: 1301
+Content-Type: text/xml;charset=utf-8
+User-agent: GreenPoint.Inc
+Connection: close
+Content-Length: 103
+
+<ROOT>
+<TEL_NO>13853917425</TEL_NO>
+<LOC_CITY>0539</LOC_CITY>
+<LOC_PROVINCE>531</LOC_PROVINCE>
+</ROOT>
+
+
+//查询客户资料
+POST https://clientaccess.10086.cn:9043/tcpbus/mobile HTTP/1.1
+Host: clientaccess.10086.cn:9043
+Accept: */*
+Accept-Encoding: gzip
+Cookie: JSESSIONID=0000HjiPgWJD9yVdLqWllJJ1aIv:-1
+Code: 1401
+Content-Type: text/xml;charset=utf-8
+User-agent: GreenPoint.Inc
+Connection: close
+Content-Length: 103
+
+<ROOT>
+<TEL_NO>13853917425</TEL_NO>
+<LOC_CITY>0539</LOC_CITY>
+<LOC_PROVINCE>531</LOC_PROVINCE>
+</ROOT>
