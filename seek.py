@@ -1,30 +1,73 @@
 # -*- coding: utf-8 -*-
 import time, datetime, MySQLdb, requests
+import xml.etree.cElementTree as ET
 
-def seekBalance():
-    data = """
+def seek():
+    #声明全局变量
+    global sim
+    global balance
+
+    loginData = """
 <ROOT>
 <TEL_NO>%(sim)s</TEL_NO>
 <PS>123123</PS>
 <EB>1</EB>
-<CLIENT_VER>1.8.5</CLIENT_VER>
+<CLIENT_VER>1.9.1</CLIENT_VER>
 <SYS_TYPE>1</SYS_TYPE>
 </ROOT>
 """
-    global sim
-    global balance
+    
+    balanceData = '''
+<ROOT>
+<TEL_NO>%(sim)s</TEL_NO>
+</ROOT>
+'''
 
-    data = data % {"sim" : sim}
-    headers = {'Content-Type': 'application/xml'} # set what your server accepts
+    billData = '''
+<ROOT>
+<TEL_NO>%(sim)s</TEL_NO>
+<QUERY_DATE>06</QUERY_DATE>
+<LOC_CITY>0539</LOC_CITY>
+<LOC_PROVINCE>531</LOC_PROVINCE>
+</ROOT>
+'''
+    
+    infoData = '''
+<ROOT>
+<TEL_NO>%(sim)s</TEL_NO>
+<LOC_CITY>0539</LOC_CITY>
+<LOC_PROVINCE>531</LOC_PROVINCE>
+</ROOT>
+'''
+
+    payHistoryData = '''
+<ROOT>
+<TEL_NO>%(sim)s</TEL_NO>
+<LOC_CITY>0539</LOC_CITY>
+<LOC_PROVINCE>531</LOC_PROVINCE>
+</ROOT>
+'''
+
+    loginData = loginData % {'sim' : sim}
+    balanceData = balanceData % {'sim' : sim}
+    billData = billData % {'sim' : sim}
+    infoData = infoData % {'sim' : sim}
+    payHistoryData = payHistoryData % {'sim' : sim}
+
+    headers = {'Content-Type': 'application/xml', 'User-agent': 'GreenPoint.Inc'} # set what your server accepts
     s = requests.session()
     try:
-        r1 = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=291', data = data, headers = headers, verify = False)
-        r2 = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=701', data = data, headers = headers, verify = False)
+        rLogin = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=291', data = loginData, headers = headers, verify = False)
+        rBalance = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=701', data = balanceData, headers = headers, verify = False)
+        rBill = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=1101', data = billData, headers = headers, verify = False)
+        rInfo = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=1401', data = infoData, headers = headers, verify = False)
+        rPayHistory = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=1301', data = payHistoryData, headers = headers, verify = False)        
     except:
         print "network error, wait 20 seconds..."
         time.sleep(20)
-        seekBalance()
+        seek()
     else:
+        root = ET.fromstring(rBalance.text)
         balance = r2.text.replace("<ROOT><BALANCE>","").replace("</BALANCE></ROOT>","")
         if balance == "":
             balance = 99999
@@ -50,7 +93,7 @@ sql = "select sim from baseinfo where lastcheck < '" + str(yestoday) + "'"
 cursor.execute(sql)
 for sims in cursor.fetchall():
     for sim in sims:
-        balance = seekBalance()
+        balance = seek()
 
         #插入detail表
         sql = "insert into detail(sim, date, balance) values(%s, %s, %s)"

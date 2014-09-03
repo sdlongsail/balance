@@ -1,0 +1,37 @@
+<ROOT>
+    <QryInfoRsp>
+        <HistoryBillInfo>
+            <InBill>06</InBill>
+            <ToatlBill>5.00</ToatlBill>
+            <BillMaterial>
+                <BillEntries>01</BillEntries>
+                <BillEntriesValue>5.00</BillEntriesValue>
+                <ThirdBillMaterialInfo>
+                    <ThirdItemsName>    GPRS/3G/4G数据流量套餐费</ThirdItemsName>
+                    <ThirdItemsValue>5.00</ThirdItemsValue>
+                </ThirdBillMaterialInfo>
+            </BillMaterial>
+            <BillMaterial>
+                <BillEntries>02</BillEntries>
+                <BillEntriesValue>0.00</BillEntriesValue>
+            </BillMaterial>
+            <BillMaterial>
+                <BillEntries>04</BillEntries>
+                <BillEntriesValue>0.00</BillEntriesValue>
+            </BillMaterial>
+            <BillMaterial>
+                <BillEntries>03</BillEntries>
+                <BillEntriesValue>0.00</BillEntriesValue>
+            </BillMaterial>
+            <BillMaterial>
+                <BillEntries>05</BillEntries>
+                <BillEntriesValue>0.00</BillEntriesValue>
+            </BillMaterial>
+            <BillMaterial>
+                <BillEntries>09</BillEntries>
+                <BillEntriesValue>0.00</BillEntriesValue>
+            </BillMaterial>
+        </HistoryBillInfo>
+        <OprTime>2014-09-03 10:38:54</OprTime>
+    </QryInfoRsp>
+</ROOT>
