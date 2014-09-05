@@ -103,11 +103,54 @@ def seekBill():
 def seekPayment():
 
     global sim
+    global paymentDate
+    global paymentAmount
+
+    loginData = """
+<ROOT>
+<TEL_NO>%(sim)s</TEL_NO>
+<PS>123123</PS>
+<EB>1</EB>
+<CLIENT_VER>1.9.1</CLIENT_VER>
+<SYS_TYPE>1</SYS_TYPE>
+</ROOT>
+"""
+
+    paymentData = '''
+<ROOT>
+<TEL_NO>%(sim)s</TEL_NO>
+<LOC_CITY>0539</LOC_CITY>
+<LOC_PROVINCE>531</LOC_PROVINCE>
+</ROOT>
+'''
+
+    loginData = loginData % {'sim':sim}
+    paymentData = paymentData % {'sim':sim}
+
+    headers = {'Content-Type': 'application/xml', 'User-agent': 'GreenPoint.Inc'} # set what your server accepts
+    s = requests.session()
+    try:
+        rLogin = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=291', data = loginData, headers = headers, verify = False)
+        rPayment = s.post('https://clientaccess.10086.cn:9043/tcpbus/mobile?code=1301', data = paymentData, headers = headers, verify = False)
+    except:
+        print "network error, wait 20 seconds..."
+        time.sleep(20)
+        seekPayment()
+    else:
+        root = ET.fromstring(rPayment.text.encode('utf8'))
+        paymentDate = root[0][0][1][0].text
+        paymentAmount = root[0][0][1][1].text
+
+    payment = [paymentDate, paymentAmount]
+    return payment
 
 
 sim = '13455918640'
 month = '06'
 balance = seekBalance()
 bill = seekBill()
+payment = seekPayment()
 print balance
 print bill
+print payment[0]
+print payment[1]
