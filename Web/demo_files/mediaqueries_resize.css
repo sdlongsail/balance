@@ -1,0 +1,104 @@
+﻿/*广告位*/
+.v1300 .topAd{width:1245px;margin:5px auto;background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/ad-repeat.jpg) repeat}
+.v1300 .adArea{width:1245px;margin:40px auto 0;background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/ad-repeat.jpg) repeat}
+.v1300 .adAreaBox{margin-top:0}
+.v1300 .header .headerAd{margin:22px 0 0 10px}
+.v1300 .header .sotool{margin:29px 0 0 20px}
+/*内容区*/
+.v1300 .navBox, .v1300 .header, .v1300 .column, .v1300 .main{width:1245px}
+.v1300 .main .content{width:660px}
+.v1300 .main .aside{float:left;width:290px;margin-left:15px}
+.v1300 .main .focus .picture{margin-left:0}
+/*首屏右侧展示区*/
+.v1300 .main .show{display:inline;float:right;width:265px}
+.v1300 .main .show ul{margin-top:1px}
+.v1300 .main .show ul li{overflow:hidden;background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/homebg05.png) repeat-x bottom;padding:17px 0 0;float:left;height:78px}
+.v1300 .main .show ul li .show_links{display:inline;float:left;position:relative;cursor:pointer;width:80px;height:60px;overflow:hidden}
+.v1300 .main .show ul li .show_photo{position:relative;display:block;width:80px;height:60px;overflow:hidden}
+.v1300 .main .show ul li .show_photo img{display:block;width:80px;height:60px;overflow:hidden;background:#fff url(http://y2.ifengimg.com/2013/vindex-test/images/0703/loading.png) no-repeat 50% 50%}
+.v1300 .main .show ul li dl{height:55px;display:inline;float:left;width:165px;padding-left:20px;overflow:hidden}
+.v1300 .main .show ul li dl dt{height:18px;line-height:18px;overflow:hidden;font-size:15px;font-weight:bold}
+.v1300 .main .show ul li dl dd{height:32px;line-height:16px;overflow:hidden;margin-top:5px}
+.v1300 .main .show ul li .show_links:hover .show_txt{text-decoration:underline}
+.v1300 .main .show ul li .show_links:hover.show_links{_width:auto}
+.v1300 .main .show ul li .show_links:hover .photos_shadow{position:absolute;top:0;left:0;display:block;width:78px;height:58px;overflow:hidden;border:1px solid #901d22;z-index:99}
+.v1300 .main .show ul li .show_links:hover .photos_shadow i{position:absolute;top:0;left:0;display:block;width:76px;height:56px;overflow:hidden;border:1px solid #fff;z-index:99}
+.v1300 .vifengApp{width:100%;height:95px;overflow:hidden;padding-top:33px;background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/homebg05.png) repeat-x bottom}
+.v1300 .vifengApp .show_links{display:inline;float:left;position:relative;cursor:pointer;width:80px;height:60px;overflow:hidden}
+.v1300 .vifengApp .show_photo{display:block;width:80px;height:60px;overflow:hidden}
+.v1300 .vifengApp .show_photo img{display:block;width:80px;height:60px;overflow:hidden;background:#fff url(http://y2.ifengimg.com/2013/vindex-test/images/0703/loading.png) no-repeat 50% 50%}
+.v1300 .vifengApp dl{display:inline;float:left;width:165px;padding-left:20px;overflow:hidden}
+.v1300 .vifengApp dl dt{height:18px;line-height:18px;overflow:hidden;font-size:15px;font-weight:bold}
+.v1300 .vifengApp dl dd{height:32px;line-height:16px;overflow:hidden;margin-top:5px}
+.v1300 .vifengApp .show_links:hover .show_txt{text-decoration:underline}
+.v1300 .vifengApp .show_links:hover.show_links{_width:auto}
+.v1300 .vifengApp .show_links:hover .photos_shadow{position:absolute;top:0;left:0;display:block;width:78px;height:58px;overflow:hidden;border:1px solid #901d22;z-index:99}
+.v1300 .vifengApp .show_links:hover .photos_shadow i{position:absolute;top:0;left:0;display:block;width:76px;height:56px;overflow:hidden;border:1px solid #fff;z-index:99}
+.v1300 .tvLive{width:290px}
+.v1300 .tvsetbox{width:290px}
+.v1300 .list_box .list_content{display:inline;float:left;width:945px}
+.v1300 .list_content .headline{width:255px}
+.v1300 .list_content .headline .headline_link{width:255px}
+.v1300 .list_content .headline .headline_link:hover.headline_link{_width:auto}
+.v1300 .list_content .headline .headline_link:hover .photos_shadow{position:absolute;top:0px;left:0px;width:253px;height:155px;overflow:hidden;border:1px solid #901d22}
+.v1300 .list_content .headline .headline_link:hover .photos_shadow i{position:absolute;top:0px;left:0px;width:251px;height:153px;overflow:hidden;border:1px solid #fff}
+.v1300 .list_content .headline .headline_link img{width:255px}
+.v1300 .list_content .headline .headline_link em{width:255px}
+.v1300 .list_movie li{margin-right:15px}
+.v1300 .list_content .list_area{width:690px}
+.v1300 .list_main .list_content{display:inline;float:left;width:945px}
+.v1300 .list_content .list_area ul li{margin-left:15px}
+.v1300 .column .subtitle{width:1245px;text-align:center}
+.v1300 .list .subtitle{width:640px;margin:0 auto}
+.v1300 .fashion .subtitle{width:945px;margin:0}
+.v1300 .list_main .list_mod li{margin-right:15px}
+.v1300 .columnList{width:660px}
+.v1300 .columnList ul li{margin-right:15px}
+.v1300 .scrollBox{width:660px}
+.v1300 .scrollList{width:660px}
+.v1300 .scrollList ul li{margin-right:15px}
+.v1300 .vip .title h2{width:930px}
+.v1300 .vip .title h2 em{margin:0 0 0 563px}
+.v1300 .vip .subtitle{margin:0 0 0 288px}
+.v1300 .list_main .list_ifengMake li{margin-right:15px}
+.v1300 .list_mod_big li{margin-right:15px}
+.v1300 .tvpro_view{width:945px;overflow:hidden}
+.v1300 .tvpro_view ul{width:960px;overflow:hidden;zoom:1;padding:5px 0 0}
+.v1300 .tvpro_view ul li{margin:21px 15px 0 0}
+.v1300 .tvprogram .list_main .list_content{width:930px;height:145px}
+.v1300 .tvpro_search{top:0;left:664px;width:255px}
+.v1300 .tvpro_view ul{height:105px}
+.v1300 .collaborate_box li{margin-right:15px}
+.v1300 .munitysearch{width:254px;height:23px;padding:1px 0;background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/homebg01.png) no-repeat;background-position:0 -211px}
+.v1300 .munitysearch .munsInp{display:inline;float:left;width:225px;height:19px;line-height:19px;overflow:hidden;padding:2px;border:0 none;margin:0 0 0 2px;color:#747474}
+.v1300 .munitysearch .munsBtn{cursor:pointer;display:inline;float:left;width:22px;height:23px}
+.v1300 .munitysearch_show{position:absolute;top:24px;left:0px;width:252px;border:1px solid #dcdcdc;background:#fff}
+.v1300 .munitysearch_showBox{width:252px;overflow:hidden;padding:6px 0;text-align:center}
+.v1300 .munitysearch_showBox ul{text-align:left}
+.v1300 .munitysearch_showBox ul li{display:inline;float:left;width:60px;height:25px;line-height:25px;overflow:hidden;margin-left:16px;color:#000}
+.v1300 .munitysearch_showBox ul li a{color:#000}
+/*底部*/
+.v1300 .btmsear, .v1300 .chaFotNav, .v1300 .chaFotNav02, .v1300 .chaFooter{width:1245px}
+.v1300 .btmsear .btmnav{float:right;width:850px}
+.v1300 .btmsear .btmnav li{padding:0 11px}
+.v1300 .btmsear .btmnav li.libgno{padding:0 0 0 11px}
+.v1300 .chaFotNav .navFocus{padding:9px 0 0}
+.v1300 .chaFotNav .endNList{width:1020px}
+.v1300 .chaFotNav .endNList li{padding:0 10px}
+.v1300 .v_code{margin-left:628px;display:none}
+
+.v1300 .topAdBox{margin:0 auto}
+
+/*首屏宽度调整130716*/
+.v1300 .main .aside{float:left;width:300px;margin-left:15px}
+.v1300 .main .show{width:255px}
+.v1300 .main .show ul li dl{width:160px;padding-left:15px}
+.v1300 .vifengApp dl{width:160px;padding-left:15px}
+.v1300 .main .show ul li{*width:100%}
+
+
+/*130724修改*/
+.v1300 .main .focus .focus_shadow{width:135px}
+.v1300 .main .focus ul li{width:143px}
+.v1300 .focalize{width:143px}
+.v1300 .focalize span{width:143px}

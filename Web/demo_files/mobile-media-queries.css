@@ -1,0 +1,284 @@
+﻿/* ---------- 移动端 ---------- */
+
+@media screen and (min-width: 340px){
+	.headline{width:317px;}
+	.headline .headline_link img{display:block;width:317px;height:195px;}
+}
+
+
+@media screen and (min-width: 360px){
+	.news_box{padding:10px 5%;}
+	.headline{width:331px;}
+	.headline .headline_link img{width:331px;height:200px;}
+	.v_code{right:15px}
+}
+
+
+@media screen and (min-width: 380px){
+	.headline{width:343px;}
+	.headline .headline_link img{width:343px;height:208px;}
+}
+
+
+@media screen and (min-width: 400px){
+	.headline{width:357px;}
+	.headline .headline_link img{width:357px;height:215px;}
+	.v_code{right:22px}
+	
+	
+}
+
+
+
+@media screen and (min-width: 480px){
+	/* 顶通广告 */
+	.ad_top_left .vifeng_logo{width: 210px;height:48px; background: url(http://y2.ifengimg.com/b009379810419054/2013/0813/rdn_52098781ae3c7.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+	/* nav */
+	/* .nav ul li{width:14.28%;} */
+	.nav ul li.more{display:none;}
+	.nav ul li:nth-child(n+11){background:#901D22;}
+	.navBoxShow{height:70px!important;} /* change by zhanglin 2013/6/28 */
+	/* main */
+	.main{position:relative;}
+	/* fucus */
+	.focus{width:66%;}
+	/* 新闻列表 */
+	.news_box{position:absolute;top:0;right:0; width:33.39%; padding:0;}
+	.news_box .news h2{padding:7.5% 9px 7.5% 9px;overflow:hidden;border-bottom:1px solid #B6B6B6;}
+	.news_box .news h2 a{display:block;line-height:18px;overflow:hidden; font-size:13px;padding-left:20px; background: url(http://y2.ifengimg.com/2013/vindex-test/images/0703/icon01.png) no-repeat left 4px;background-size:15px 10px;}
+	/* 列表 */
+	.columnList{overflow:hidden;padding:0 1%;}
+	.columnList ul{padding:8px 0 0 1px;font-size:0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+	.columnList ul li:nth-child(n+4){display:block;}
+	.columnList ul li:nth-child(n+5){display:none;}
+	.columnList li{float:left;vertical-align:top;width:25%;margin:12px 0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+	.columnList li .columnPhotos{display:block;position:relative;}
+	.columnList li a{display:block;width:110px;margin:0 auto;}
+	.columnList li a img{display:block;width:110px;height:82.5px;overflow:hidden;}
+	/*  一张大图六张小图样式*/
+	.headline{float:left;width:228px;padding-left:9px;}
+	.headline .headline_link img{display:block;width:228px;height:150px;overflow:hidden;}
+	.list_area{overflow:visible;}
+	.list_area ul{padding:0;}
+	.list_area li:nth-child(-n+2){width:110px;height:151px;margin:20px 1px 0 7px;}
+	.list_area li:nth-child(6){margin-right:0;}
+	.list_area li:nth-child(5){margin-left:3px;}
+	.list_area li{width:110px;margin:20px 4px 0 4px;padding:0;}
+	.list_area li a{display:block;width:110px;margin:0 auto;}
+	.list_area li a img{display:block;width:110px;height:82.5px;overflow:hidden;}
+	/* 凤凰出品 */
+	.list_ifengMake{padding:3px 0 0 1px;}
+	.list_ifengMake li{width:25%;margin:20px 0 0;padding:0;}
+	.list_ifengMake li:nth-child(n+5){display:none;}
+	.list_ifengMake li h3{width:110px;top:63px;overflow:hidden;margin-left:-55px;}
+	.list_ifengMake li a{display:block;width:110px;margin:0 auto;overflow:hidden;}
+	.list_ifengMake li a img{display:block;width:110px;height:82.5px;overflow:hidden;}
+	/* 军事 */
+	.list_mod{width: 100%;padding: 8px 0 0 1px;font-size:0; box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing:border-box;}
+	.list_mod li{width:25%%;margin:12px 0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;font-size:14px;}
+	.list_mod li a{display:block;width:110px;margin:0 auto;}
+	.list_mod li a img{display:block;width:110px;height:82.5px;overflow:hidden;}
+	.list_mod li:nth-child(n+5){display:none;}
+	/* 纪录片 */
+	.list_mod_big{padding:3px 0 0 1px;}
+	.list_mod_big li{width:25%;margin:20px 0 0;padding:0;}
+	.list_mod_big li:nth-child(n+5){display:none;}
+	.list_mod_big li a{display:block;width:110px;margin:0 auto;}
+	.list_mod_big li a img{display:block;width:110px;height:158px;overflow:hidden;}
+	/* 凤凰直播 */
+	.tvLive{width:100%;margin-top:18px;}
+	.tvsetbox .tvset span a{display:block;width:140px;height:50px;margin:0 auto; text-indent:-9999px;}
+	.tvsetbox .tvset span.chanel_InfoNews a{background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/chanel_infonews480.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+	.tvsetbox .tvset span.chanel_cn a{background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/chanel_cn480.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+	.tvsetbox .tvset span.chanel_hk a{background:url(http://y2.ifengimg.com/2013/vindex-test/images/0703/chanel_hk480.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+	/* 社区 */
+	.tvpro_tab li{width:14.285714%;}
+	.tvpro_view ul li{width:21%;margin:5px 0 0 3.2%;}
+	/* 友情链接 */
+	.collaborate .links li{width:21%;margin:0 0 0 3.2%;}
+	/* 二维码 */
+	.v_code{right:8px}
+	.vblog .list_content{padding:0;}
+	.vblog .list_area ul{padding:0 1%;}
+	
+	
+	.list_mod{height:165px;overflow:hidden;}
+	
+}
+
+
+
+@media screen and (width: 480px){
+	.IfengMake .list_content{padding:0;}
+	.list .list_content{padding:0;}
+	
+	.news .list_area ul,
+	.ent .list_area ul,
+	.vblog .list_area ul{padding-left:1px;}
+	.vblog .list_content{padding:0;}
+	.vblog .list_area li{padding:0 1%;}
+	
+	.list_area li:nth-child(-n+2){margin-left:7px;padding:0;}
+	
+	.columnList{padding:0;}
+	
+	
+	
+}
+
+
+
+
+@media screen and (min-width: 533px){
+	.news_box{width:34%;}
+	.news_box .news h2{padding:8.8% 9px 8% 9px;}
+	/*列表*/
+	.columnList ul{padding:8px 0 0 1px;}
+	.columnList li a{display:block;width:120px;margin:0 auto;}
+	.columnList li a img{display:block;width:120px;height:90px;overflow:hidden;}
+	/*  一张大图六张小图样式*/
+	.headline{float:left;width:251px;padding-left:11px;}
+	.headline .headline_link img{display:block;width:251px;height:165px;overflow:hidden;}
+	.list_area{overflow:visible;}
+	.list_area ul{padding:0;}
+	.list_area li:nth-child(-n+2){width:120px;height:165px;margin:20px 0 0 10px;}
+	.list_area li:nth-child(6){margin-right:0;}
+	.list_area li:nth-child(5){margin-left:0;}
+	.list_area li{width:25%;margin:20px 0px 0 0;padding:0;}
+	.list_area li a{display:block;width:120px;margin:0 auto;}
+	.list_area li a img{display:block;width:120px;height:90px;overflow:hidden;}
+	/* 凤凰出品 */
+	.list_ifengMake{padding:3px 0 0 1px;}
+	.list_ifengMake li{width:25%;margin:20px 0 0;padding:0;}
+	.list_ifengMake li:nth-child(n+5){display:none;}
+	.list_ifengMake li h3{width:120px;top:70px;margin-left:-60px;overflow:hidden;}
+	.list_ifengMake li a{display:block;width:120px;margin:0 auto;overflow:hidden;}
+	.list_ifengMake li a img{display:block;width:120px;height:90px;overflow:hidden;}
+	/* 军事 */
+	.list_mod{width: 100%;padding: 8px 0 0 1px;font-size:0; box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing:border-box;}
+	.list_mod li{width:25%%;margin:12px 0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;font-size:14px;}
+	.list_mod li a{display:block;width:120px;margin:0 auto;}
+	.list_mod li a img{display:block;width:120px;height:90px;overflow:hidden;}
+	.list_mod li:nth-child(n+5){display:none;}
+	/* 纪录片 */
+	.list_mod_big{padding:3px 0 0 1px;}
+	.list_mod_big li{width:25%;margin:20px 0 0;padding:0;}
+	.list_mod_big li:nth-child(n+5){display:none;}
+	.list_mod_big li a{display:block;width:120px;margin:0 auto;}
+	.list_mod_big li a img{display:block;width:120px;height:170px;overflow:hidden;}
+	/*二维码*/
+	.v_code{right:11px}
+}
+
+
+
+
+
+
+@media screen and (width: 533px){
+
+
+
+
+}
+
+
+
+
+
+@media screen and (width: 540px){
+
+	.list_area li:nth-child(-n+2){margin:20px 0 0 13.5px;}
+	.v_code{right:11px}
+}
+
+
+
+
+@media screen and (min-width: 568px){
+	.vblog .list_area li:nth-child(6){padding-left:1px;}
+}
+
+@media screen and (min-width: 568px){
+	.news_box{width:34%;}
+	.news_box .news h2{padding:9% 9px;}
+	.columnList ul{padding:0;}
+	.headline{float:left;width:259px;padding-left:15px;}
+	.headline .headline_link img{display:block;width:259px;height:165px;overflow:hidden;}
+	.list_area li:nth-child(-n+2){height:165px;margin:20px 0 0 19px;}
+	/* 二维码 */
+	.v_code{right:16px}
+	.list_area{padding:0 1.2%;}
+}
+
+
+
+
+
+
+@media screen and (min-width: 569px)and (max-width: 639px){
+	.news_box{width:34%;}
+	.news_box .news h2{padding:9% 9px 8.815555%;}
+
+}
+
+
+@media screen and (min-width: 640px){
+	.news_box{position:absolute;top:0;right:0; width:34%; padding:0;}
+	.news_box .news h2{padding:10% 0 10.5% 9px}
+	
+	
+	.columnList{padding:0;}
+	.columnList ul{padding:0;}
+	.headline{float:left;width:280px;padding-left:20px;}
+	.headline .headline_link img{display:block;width:280px;height:170px;overflow:hidden;}
+	.list_area li:nth-child(-n+2){height:175px;margin:20px 0 0 40px;}
+	
+	.list .list_content{width:auto;padding:0;}
+	.vblog .list_area ul{padding:0;}
+	/* 二维码 */
+	.v_code{right:20px}
+	
+	.list_area{padding:0;}
+	.list_area ul{padding:0;}
+	
+	.IfengMake .list_content{padding:0;}
+	.list .list_content{padding:0;}
+	.list_mod{padding:0;}
+	.list_mod_big{padding:0;}
+	.list_ifengMake{padding-left:0;}
+
+}
+
+
+/*频道隐藏*/
+.nav ul li:nth-child(11){display:none;}
+.nav ul li:nth-child(14){display:none;}
+.nav ul li:nth-child(12){display:none;}
+.nav ul li:nth-child(10){display:none;}
+.nav ul li:nth-child(n+11){background:#901d22;}
+
+
+
+.IfengMake{display:none;}
+.tvprogram{display:none;}
+.collaborate{display:none;}
+.vip{display:none;}
+
+#footAD_box .ad_top{position:relative}
+
+
+
+
+/*视频首页-添加综艺频道入口*/
+.nav ul li:nth-child(7){display:none;}
+.nav ul li:nth-child(13){display:none;}
+.nav ul li:nth-child(15){display:none;}
+.nav ul li:nth-child(10){display:block;}
+.nav ul li:nth-child(14){display:block;}
+.nav ul li:nth-child(16){display:none;}
+.nav ul li:nth-child(17){display:none;}
+
+
+
+

@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* 手机端样式表 */
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,textarea,p,table,th,td{margin:0;padding:0}
+section,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav{display:block}
+html{-webkit-text-size-adjust:none;-ms-text-size-adjust:100%}
+body,input,button,textarea,select {-webkit-text-size-adjust:none;font:normal 12px/18px Helvetica;outline:none;}
+body {font-family: "Microsoft YaHei",SimHei,helvetica,arial,verdana,tahoma,sans-serif;-webkit-font-smoothing: antialiased;-webkit-text-size-adjust: none;background: #FFF;}
+img,video{border:0;max-width:100%;height:auto;width:auto\9;}
+input,select,button,textarea{vertical-align:middle;font-size:12px;outline:none}
+ol,ul{list-style:none}
+em{font-style:normal}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+table{border-collapse:collapse;border-spacing:0}
+textarea{resize:none}
+a{outline:none;text-decoration:none;color:#000;}
+a:link{color:#000;}
+a:visited{color:#000;}
+a:focus{color:#000;}
+a:hover{text-decoration:underline;color:#901d22;}
+a:active{color:#000;}
+.clearfix{*zoom:1}
+.clearfix:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+.main{*zoom:1}
+.main:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+.scrollBox{*zoom:1}
+.scrollBox:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+section{*zoom:1}
+section:after{content:" ";overflow:hidden;clear:both;display:block;height:0}
+
+/* display:none */
+.adArea,.subnav,.headerAd,.sotool,.minilogin,.scrollBox,.show,.news_box .news ul,.columnList ul li .columnPhotos .column_fhlbt,.tvsetbox ul#tvepg,.column .title .subtitle a,.list_aside,.headline .headline_txt,.list_content .headline ul,.news .list_main,.movie,.tvpro_search,.tvpro_view ul li .photos_shadow,.tvpro_view ul li a img,.collaborate .list_content,.columnList ul li .columnPhotos .column_shadow,.column .title .subtitle,.livetit .menu{display:none}
+
+/* lazy-img */
+.lazy_img {background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/loading.png) no-repeat 50% 50%;}
+
+/* 顶通广告 */
+/* .ad_top.ad_top {width: 100%;min-width:320px;height: 48px;overflow: hidden;background:#e8e8e8\0;
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#D7D7D7), to(#e8e8e8));
+background-image: -moz-linear-gradient(top, #D7D7D7, #e8e8e8);
+background-image: -o-linear-gradient(top, #D7D7D7, #e8e8e8);
+background-image: -ms-linear-gradient(top, #D7D7D7, #e8e8e8);
+} */
+
+.ad_top.ad_top {width:100%;min-width:320px;height:48px;overflow:hidden;background:#0082b5;}
+
+.ad_top_left{float:left;margin:0 0 0 14px;}
+.ad_top_left .vifeng_logo{display: block;width: 180px;height:48px;overflow: hidden;background: url(http://y2.ifengimg.com/b009379810419054/2013/0813/rdn_520987631ff5d.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.ad_top_right{float:right;margin:5px 14px 0 0;}
+.ad_top_right .download_btn{display: block; width: 78px;height: 39px;margin-right:9px; overflow: hidden;background: url(http://y2.ifengimg.com/b009379810419054/2013/0813/rdn_52098760ce8b2.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.ad_top_close{position:absolute;top:0;right:0;width:21px;height:22px;cursor:pointer; background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/adclose.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+/* 导航 */
+header{position:relative;height:110px;max-width:640px;margin:0 auto;}
+.nav{position:absolute;left:0;top:40px;width:100%;z-index:10;}
+.navBox{width:100%;min-width:320px; height:70px;background:#901D22;overflow:hidden;}
+.navBoxShow{/*height:105px;*/} /* change by zhanglin 2013/6/28 */
+.nav ul li{float:left;width:20%; height:34px; text-align:center;font-size:17px;line-height:34px;border-bottom:1px solid #73171B;}
+.nav ul li a{color:#fff;font-weight:bold;}
+.nav ul li a:visited{color:#fff;}
+.nav ul li a:focus{color:#fff;}
+.nav ul li a:hover{text-decoration:underline;}
+.nav ul li a:active{color:#fff;}
+.nav ul li.more a{display:block;width:21px;height:15px;margin:10px auto 0; background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/navmore.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.navBoxShow ul li.more{background:#73171B;}
+.navBoxShow ul li.more a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/navmorehover.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.nav ul li:nth-child(n+11){background:#73171B;}
+/* logo */
+.header{min-width:320px;width:100%; height:54px;position:absolute;top:7px;left:0;}
+.header .logo a{display:block; width:100px;height:27px;text-indent:-9999px;margin:0 auto; background: url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/phonelogo.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+/* 焦点图 */
+.main{min-width:320px;max-width:640px;margin:0 auto;}
+.focus{width:100%;position:relative;min-width:320px;min-height:179px;overflow:hidden;}
+.focus .pic a img{display:block; width:100%;min-width:320px;}
+.focus .pic .shadow{position:absolute;left:0;bottom:0;z-index:5; width:100%;height:30px;text-align:center; background: rgba(0,0,0,0.8);filter: progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#95000000',endColorstr = '#95000000')	8;}
+.focus .pic .shadow a{display:block; font-size:15px;color:#fff;height:30px;line-height:30px; width:66%;overflow:hidden;margin:0 auto;}
+.focus .pic .shadow a:link{color:#fff;}
+.focus .pic .shadow a:visited{color:#fff;}
+.focus .pic .shadow a:focus{color:#fff;}
+.focus .pic .shadow a:hover{text-decoration:underline;}
+.focus .pic .shadow a:active{color:#fff;}
+.fucusbar a.prev{display:block;position:absolute;left:0;bottom:4px;/*change by zhanglin 2013/6/28*/z-index:10; width:28px;height:30px;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/leftbar.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.fucusbar a.next{display:block;position:absolute;right:0;bottom:4px;/*change by zhanglin 2013/6/28*/z-index:10; width:28px;height:30px;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/right_bar.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+/* change zhanglin 2013/6/28 */
+#js_focus {overflow: hidden; -webkit-touch-callout: none; touch-callout: none; -webkit-user-select: none; user-select: none; }
+#js_focus_in { white-space: nowrap; }
+#js_focus_in .pic { display: inline-block; width: 100%; position: relative;}
+.anim {
+  -webkit-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+/* 字体设置 */
+.columnList ul li .columnPhotos em{display: block;font-size: 13px;height:54px;overflow: hidden;padding-top:7px;}/*首屏列表*/
+.column .list_area_link em{display:block;height:54px;font-size:13px; overflow:hidden;padding-top:7px;}/*一张大图六张小图、凤凰出品、军事*/
+.list_mod_big .list_mod_big_photo em {display: block;height: 18px;line-height: 18px;overflow: hidden;padding-top:7px;font-size:13px;text-align:center;}/*纪录片*/
+.list_mod_big li p{height:54px;padding-top:5px;overflow:hidden;color:#747474;font-size:13px;}/*纪录片*/
+
+/* 新闻列表 */
+.news_box{padding:10px 3%;}
+.news_box .news{margin-top:0;}
+.news_box .news h2{height:35px;line-height:35px;overflow:hidden;}
+.news_box .news h2 a{display:block;padding-left:20px;height:35px;line-height:35px; font-size:13px;font-weight:bold; background: url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/icon01.png) no-repeat left;background-size:15px 10px;}
+/* 凤凰直播 */
+.tvLive{width:100%;}
+.tvLive .livetit{height:18px;line-height:18px; font-size:13px;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtitbg.png) repeat-x;-webkit-background-size: auto 18px;-moz-background-size: auto 18px;-o-background-size: auto 18px;background-size: auto 18px;}
+.tvLive .livetit h2 a{display:block;width:125px;height:18px;margin:0 auto;text-indent:-9999px;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit02.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}.livetit a{color:#fff;}
+.livetit a:link{color:#fff;}
+.livetit a:visited{color:#fff;}
+.livetit a:focus{color:#fff;}
+.livetit a:hover{text-decoration:underline;}
+.livetit a:active{color:#fff;}
+.tvsetbox .tvset{padding-top:20px;}
+.tvsetbox .tvset span{float:left;width:33.33333%;}
+.tvsetbox .tvset span a{display:block;width:87px;height:69px;margin:0 auto;text-indent:-9999px;}
+.tvsetbox .tvset span.chanel_InfoNews a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/chanel_infonews.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.tvsetbox .tvset span.chanel_cn a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/chanel_cn.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.tvsetbox .tvset span.chanel_hk a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/chanel_hk.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+/* 通栏&标题 */
+.column{min-width:320px;max-width:640px;margin:16px auto 0;}
+.column .title{height:18px;line-height:18px; font-size:13px;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtitbg.png) repeat-x;-webkit-background-size: auto 18px;-moz-background-size: auto 18px;-o-background-size: auto 18px;background-size: auto 18px;}
+.column .title h2 em a{display:block;width:85px;height:18px;margin:0 auto;text-indent:-9999px;}
+.column .title .title_news a{ background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit01.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.column .title .title_ifengMake a{width:125px;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit12.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.column .title .title_war a{background:url(http://y2.ifengimg.com/f3a90b93df336b6f/2013/0709/vtit03.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.column .title .title_ent a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit04.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.column .title .title_variety a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit05.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.column .title .title_documentary a{width:105px; background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit06.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.column .title .title_history a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit07.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.column .title .title_vip a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit08.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.column .title .title_vblog a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit09.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.column .title .title_fashion a{background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit10.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.collaborate .list_aside_title a{display:block;width:125px;height:18px;margin:0 auto;text-indent:-9999px;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtit11.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+
+/* 列表 */
+.columnList{overflow:hidden;padding:0 1%;}
+.columnList ul{padding:8px 0 0 1px;font-size:0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.columnList ul li:nth-child(n+4){display:none;}
+.columnList li{float:left;vertical-align:top;width:33.33333%;margin:12px 0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.columnList li .columnPhotos{display:block;position:relative;}
+.columnList li a{display:block;width:96px;margin:0 auto;}
+.columnList li a img{display:block;width:96px;height:72px;overflow:hidden;}
+
+/*  一张大图六张小图样式*/
+.headline{width:305px;margin:20px auto 0;}
+.headline .headline_link img{display:block;width:100%;height:178px;}
+.headline .headline_link em{position:relative; display:block;width:100%;color:#fff;font-size:15px;font-weight:bold; height:25px;line-height:25px;text-align:center; margin-top:-25px;overflow:hidden; background:rgba(0,0,0,0.8);}
+.list_area{overflow:hidden;padding:0 1%;}
+.list_area ul{padding:8px 0 0 1px;font-size:0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.list_area li{float:left;vertical-align:top;width:33.333333%;margin:12px 0 0;box-sizing: border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.list_area li:nth-child(n+7){display:none;}
+.list_area li a{display:block;width:96px;margin:0 auto;}
+.list_area li a img{display:block;width:96px;height:72px;overflow:hidden;}
+.headline a{color:#fff;}
+.headline a:link{color:#fff;}
+.headline a:visited{color:#fff;}
+.headline a:focus{color:#fff;}
+.headline a:hover{text-decoration:underline;}
+.headline a:active{color:#fff;}
+/* 凤凰出品 */
+.IfengMake .list_content{width:auto;padding:0 1%;}
+.list .list_content{width:auto;padding:0 1%;}
+.vblog .list_area{padding:0;}
+.list_ifengMake{padding:8px 0 0 1px;font-size:0;box-sizing:border-box;-moz-box-sizing: border-box;-webkit-box-sizing:border-box;}
+.list_ifengMake li{float:left;vertical-align:top;width:33.33333%;margin:12px 0 0;box-sizing: border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;font-size:14px;position:relative;}
+.list_ifengMake li:nth-child(n+7){display:none;}
+.list_ifengMake li a{display:block;width:96px;margin:0 auto;}
+.list_ifengMake li a img{display:block;width:96px;height:72px;overflow:hidden;}
+.list_ifengMake li h3{position:absolute;top:52px;width:96px;left:50%;margin-left:-48px;font-size:13px;font-weight:bold;height:20px;line-height:20px;text-align:center;color:#fff;background:rgba(0,0,0,0.8);}
+.list_ifengMake li h3 a{color:#fff;}
+.list_ifengMake li h3 a:link{color:#fff;}
+.list_ifengMake li h3 a:visited{color:#fff;}
+.headline a:focus{color:#fff;}
+.headline a:hover{text-decoration:underline;}
+.headline a:active{color:#fff;}
+/* 军事 */
+.list_content{width:100%;overflow:hidden;}
+.list_mod{width: 100%;padding: 8px 0 0 1px;font-size:0; box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing:border-box;}
+.list_mod li{float:left; vertical-align: top; width:33.33333%;margin: 12px 0 0;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing:border-box;font-size: 14px;}
+.list_mod li a{display:block;width:96px;margin:0 auto;}
+.list_mod li a img{display:block;width:96px;height:72px;overflow:hidden;}
+.list_mod li:nth-child(n+7){display:none;}
+/* 纪录片 */
+.list_mod_big{padding:8px 0 0 1px;font-size:0; box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing:border-box;}
+.list_mod_big ul{}
+.list_mod_big li{float:left;vertical-align:top;width:33.333333%;margin:12px 0 0 0;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing:border-box;font-size: 14px;}
+.list_mod_big li a{display:block;width:96px;margin:0 auto;}
+.list_mod_big li a img{display:block;width:96px;height:128px;overflow:hidden;}
+.list_mod_big li:nth-child(n+7){display:none;}
+.list_mod_big li p a{color:#747474;}
+/* 社区 */
+.tvprogram .title{height:35px; background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtitbg02.png) repeat-x;background-size:auto 35px;}
+.tvpro_tab{height:29px;overflow:hidden;border-left:1px solid #dcdcdc;padding-top:5px;font-size:0;}
+.tvpro_tab li{display: inline-block;height:29px; width:20%;text-align:center;line-height:29px; cursor:pointer;font-size:14px;font-weight:bold;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;box-sizing:border-box;}
+.tvpro_tab li.current{border-bottom:none;}
+.tvpro_view ul{padding:15px 0 3px;overflow:hidden;}
+.tvpro_view ul li {float:left;width:29.6%;text-align:center;margin:5px 0 0 2.7%;}
+.tvpro_view ul li .tvpro_view_link em{display:block;width:93px;margin:0 auto; height:23px;line-height:23px;font-size:12px; border:1px solid #D0D0D0; background:#F2F2F2;}
+.tab_btn{text-align:center;font-size:0;margin-top:8px;height:12px;}
+.tab_btn li{display:inline-block;zoom:1;cursor:pointer; width:5px;height:5px;border-radius:4px;background:#ccc;margin:0 5px;}
+.tab_btn li.current{background:#901D22;}
+/* change by zhanglin 2013/7/1 */
+.tabContainer {overflow: hidden; }
+.js_tvpro_item { display: inline-block; width: 100%; vertical-align: top; min-height: 100px; }
+.tvpro_view { white-space: nowrap; }
+.tvpro_tab ul {white-space: nowrap;}
+/* 友情链接 */
+.collaborate .list_aside{display:block;height:18px;line-height:18px; font-size:13px;background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/vtitbg.png) repeat-x;-webkit-background-size: auto 18px;-moz-background-size: auto 18px;-o-background-size: auto 18px;background-size: auto 18px;}
+.collaborate .links{padding-top:10px;}
+.collaborate .links li{float:left;width:27%;margin:0 3.1%; font-size:14px;height:30px;line-height:30px;}
+/* footer */
+.mfooter{min-width:320px; width:100%;height:28px;text-align:center;padding-top:18px;font-size:14px;margin-top:6px; background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/footerbg.png) repeat-x top;}
+.btmsear {display: none;}
+.chaFotNav {display: none;}
+.chaFotNav02 {display: none;}
+.chaFooter {display: none;}
+/* 返回顶部二维码 */
+.v_code{position:fixed;z-index: 1000; display: none; right:8px;bottom:5px;width:50px;-webkit-transition: opacity 1s ease;-moz-transition: opacity 1s ease;-o-transition: opacity 1s ease;transition: opacity 1s ease;}
+.v_code_box{overflow:hidden;zoom:1}
+.backFb{display:inline;float:left;width:30px}
+.quickmark{display:none;}
+.backFb .backtop{display:block; width:50px;height:50px;text-indent:-9999px; background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/gotop.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.backFb .feedback{display:block;width:50px;height:49px;text-indent:-9999px;margin-top:1px; background:url(http://y3.ifengimg.com/f3a90b93df336b6f/2013/0703/goback.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+
+
+
+/*20131227更新*/
+.mainnav .cont ul li{color:#fff;font-weight:bold;}
+.fashion{padding-bottom:20px;}
+
+
+.topAd{display:none !important;}
+.topAdBox{display:none !important;}
+
+
+
+
+/*添加世界杯广告位*/
+.news_ADbox{display:none !important;}
+
+
