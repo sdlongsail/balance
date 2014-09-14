@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!--
+<meta name="apple-touch-fullscreen" content="yes" />
+-->
+    <title>土豆_每个人都是生活的导演_在线视频观看,原创视频上传,海量视频搜索</title>
+    <link type="text/css" href="tudou_demo_files/index_15.css" rel="stylesheet">
+    <link sizes="114*114" href="http://css.tudouui.com/v3/dist/img/mobile/ch2/icon_0.png" rel="apple-touch-icon-precomposed">
+</head>
+
+
+
+
+
+<body>
+    <div style="display:block;clear:both;float:none;position:absolute;right:0;bottom:0;border:none;">
+        <object id="MTI02GSGJS3MJ4B2" data="tudou_demo_files/MTFlashStore.swf" type="application/x-shockwave-flash" style="position:absolute;right:0;bottom:0;border:none;" height="10" width="10">
+            <param name="movie" value="http://irs01.net/MTFlashStore.swf#">
+            <param name="wmode" value="transparent">
+            <param name="version" value="10">
+            <param name="allowScriptAccess" value="always">
+            <param name="flashvars" value="jsproxyfunction=MTI02GSGCR3Y6SIC">
+        </object>
+    </div>
+    <div class="x-body" id="xBody" data-role="body">
+
+        <!-- 侧栏容器 -->
+        <div class="g-sidebar" id="gSideBar">
+            <div class="g-side-bg"></div>
+            <div class="g-side-scroll" id="gSideScroll">
+                <div class="g-sideusr" id="gSideUser">
+                    <div class="user-view login-view">
+                        <div class="user-icon">
+                            <img src="tudou_demo_files/co5.png">
+                        </div>
+                        <div class="user-info">
+                            <p><a href="#" id="gSideLogin">登录</a> 或 <a href="http://login.tudou.com/reg.do" target="_blank" id="gSideReg">注册</a>
+                            </p>
+                            <p>一切新鲜事，送到你眼前！</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="g-sidenav" id="gSideNav">
+                    <ul class="navi-list navi-menu">
+                        <li class="navi-ch-all"><a href="#" id="gSideNavBtn"><i class="icon-menu"></i>导航<b><i class="icon-arr-down"></i></b></a>
+                        </li>
+                    </ul>
+                    <ul class="navi-chs navi-chs-sec" id="gSideEntry">
+                        <li><a href="http://cartoon.tudou.com/?from=sidebar">动漫</a>
+                        </li>
+                        <li><a href="http://tv.tudou.com/?from=sidebar">电视剧</a>
+                        </li>
+                        <li><a href="http://movie.tudou.com/?from=sidebar">电影</a>
+                        </li>
+                        <li><a href="http://zy.tudou.com/?from=sidebar">综艺</a>
+                        </li>
+                        <li><a href="http://music.tudou.com/?from=sidebar">音乐</a>
+                        </li>
+                        <li><a href="http://imake.tudou.com/?from=sidebar">原创</a>
+                        </li>
+                        <li><a href="http://news.tudou.com/?from=sidebar">热点</a>
+                        </li>
+                        <li><a href="http://korea.tudou.com/?from=sidebar">韩娱</a>
+                        </li>
+                        <li><a href="http://fun.tudou.com/?from=sidebar">搞笑</a>
+                        </li>
+                        <li><a href="http://game.tudou.com/?from=sidebar">游戏</a>
+                        </li>
+                        <li><a href="http://ent.tudou.com/?from=sidebar">娱乐</a>
+                        </li>
+                        <li><a href="http://fashion.tudou.com/?from=sidebar">时尚</a>
+                        </li>
+                        <li><a href="http://sports.tudou.com/?from=sidebar">体育</a>
+                        </li>
+                        <li><a href="http://jilupian.tudou.com/?from=sidebar">纪实</a>
+                        </li>
+                        <li><a href="http://auto.tudou.com/?from=sidebar">汽车</a>
+                        </li>
+                        <li><a href="http://it.tudou.com/?from=sidebar">科技</a>
+                        </li>
+                        <li><a href="http://life.tudou.com/?from=sidebar">乐活</a>
+                        </li>
+                        <li><a href="http://edu.tudou.com/?from=sidebar">成长</a>
+                        </li>
+                        <li><a href="http://www.tudou.com/list/index.html?from=sidebar">片库</a>
+                        </li>
+                        <li><a href="http://www.tudou.com/top/rank.html?from=sidebar">排行榜</a>
+                        </li>
+                        <li><a href="http://m.tudou.com/touch/download" target="_blank" id="gSideAppDownload">APP</a>
+                        </li>
+                    </ul>
+                    <ul class="navi-list">
+                        <li><a href="http://www.tudou.com/watch/?from=sidebar" id="gSideMySub"><i class="icon-rss"></i>我的订阅<b data-count="0" id="gSideMySubCount" class="count"></b></a>
+                        </li>
+                        <li><a href="http://www.tudou.com/watch/favorite/?from=sidebar" id="gSideMyFav"><i class="icon-collect"></i>我的收藏<b id="gSideMyFavCount"></b></a>
+                        </li>
+                        <li><a href="http://www.tudou.com/watch/history/?from=sidebar" id="gSideHistory"><i class="icon-history"></i>观看记录<b></b></a>
+                        </li>
+                    </ul>
+                    <div id="gSideSubList">
+                        <div class="navi-subtitle subtitle">推荐列表</div>
+                        <ul class="navi-list navi-sublist sublistpart">
+                            <li>
+                                <a href="http://www.tudou.com/watch/home/?id=83849123&amp;from=sidebar" data-id="83849123">
+                                    <img src="tudou_demo_files/_103488436227901837466674072074883559490.jpg">土豆看综艺</a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.tudou.com/watch/home/?id=2048773&amp;from=sidebar" data-id="2048773">
+                                    <img src="tudou_demo_files/69148467223210152230721635428293992143.jpg">love桥林</a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.tudou.com/watch/home/?id=114537392&amp;from=sidebar" data-id="114537392">
+                                    <img src="tudou_demo_files/_127231723529060169456167469962232702589.jpg">bow_ol_bow</a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.tudou.com/watch/home/?id=9349107&amp;from=sidebar" data-id="9349107">
+                                    <img src="tudou_demo_files/_106661777442974244584907083843904958041.jpg">痴心解说</a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.tudou.com/watch/home/?id=328349030&amp;from=sidebar" data-id="328349030">
+                                    <img src="tudou_demo_files/63918411109793935869141831922985582485.jpg">点对点考研</a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.tudou.com/watch/home/?id=1152217&amp;from=sidebar" data-id="1152217">
+                                    <img src="tudou_demo_files/_30785014335551511373537266552148693308.jpg">momotaros</a>
+                            </li>
+
+                        </ul>
+                        <ul class="navi-list navi-sublist sublistall" style="display:none;"></ul>
+                        <div style="display: none;" class="navi-submore">显示全部</div>
+                    </div>
+                    <div class="navi-subset"><a href="http://www.tudou.com/watch/subscribe/?type=manage&amp;from=sidebar"><i class="icon-setting"></i>管理订阅</a>
+                    </div>
+                    <div class="navi-more" id="gSideMore"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 当前页面外层容器 -->
+        <div class="x-page index g-side-open" id="xPageHost" data-role="host">
+
+
+            <!-- 全局顶部导航 -->
+            <div id="indexAppRecom">
+                <div class="index-app-recom" style="background:#EBE5D5 url(http://u1.tdimg.com/6/90/199/_15480939984349288135618679248139779376.jpg) center no-repeat;background-size:320px;">
+                    <div class="app-logo"></div>
+                    <div class="app-info"><strong>热门韩剧</strong><em>土豆独播</em>
+                    </div>
+                    <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.tudou.android&amp;g_f=991763" class="app-inst" target="_blank" id="appInstall">免费安装</a>
+                    <div class="close" id="closeAppRecom"></div>
+                </div>
+            </div>
+            <div class="g-top" id="gTop">
+                <div class="g-top-main">
+                    <a href="http://www.tudou.com/" class="g-top-logo">土豆</a><a href="#" class="g-btn-sidebar" id="gTopSideBar"><i class="icon-cate"></i><span class="g-btn-badge" id="gTopBadge" data-count="0"></span></a>
+                    <div class="g-btn-login" id="gTopLogin">登录</div>
+                </div>
+                <div class="g-search " id="gTopSearch">
+                    <form class="g-search-form" target="_blank" action="http://www.soku.com/m/t/video" method="get">
+                        <span class="g-search-cancel">取消</span>
+                        <span class="g-search-input"><input name="q" id="g-search-kw" class="g-search-kw" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" type="search"></span>
+                        <span class="g-search-btn"><i class="icon-search"></i></span>
+                    </form>
+                    <div id="g-search-ex" class="g-search-ex">
+                        <div id="g-search-suggest" class="g-search-suggest">
+                            <ul></ul>
+                        </div>
+                        <div id="g-search-hot" class="g-search-hot">
+                            <h3>搜索热词</h3>
+                            <ul></ul>
+                        </div>
+                        <div id="g-search-history" class="g-search-history">
+                            <h3>搜索历史</h3>
+                            <ul></ul>
+                            <span><button id="g-search-clear" class="g-search-clear" type="button">清空历史记录</button></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="g-category" id="gCategory">
+                <ul>
+                    <li class="current"><a href="http://www.tudou.com/">首页</a>
+                    </li>
+                    <li><a href="http://cartoon.tudou.com/">动漫</a>
+                    </li>
+                    <li><a href="http://tv.tudou.com/">电视剧</a>
+                    </li>
+                    <li><a href="http://movie.tudou.com/">电影</a>
+                    </li>
+                    <li class="ex"><a href="#">...</a>
+                    </li>
+                    <li><a href="http://zy.tudou.com/">综艺</a>
+                    </li>
+                    <li><a href="http://music.tudou.com/">音乐</a>
+                    </li>
+                    <li><a href="http://imake.tudou.com/">原创</a>
+                    </li>
+                    <li><a href="http://news.tudou.com/">热点</a>
+                    </li>
+                    <li><a href="http://korea.tudou.com/">韩娱</a>
+                    </li>
+                    <li><a href="http://fun.tudou.com/">搞笑</a>
+                    </li>
+                    <li><a href="http://game.tudou.com/">游戏</a>
+                    </li>
+                    <li><a href="http://ent.tudou.com/">娱乐</a>
+                    </li>
+                    <li><a href="http://fashion.tudou.com/">时尚</a>
+                    </li>
+                    <li><a href="http://sports.tudou.com/">体育</a>
+                    </li>
+                    <li><a href="http://jilupian.tudou.com/">纪实</a>
+                    </li>
+                    <li><a href="http://auto.tudou.com/">汽车</a>
+                    </li>
+                    <li><a href="http://it.tudou.com/">科技</a>
+                    </li>
+                    <li><a href="http://life.tudou.com/">乐活</a>
+                    </li>
+                    <li><a href="http://edu.tudou.com/">成长</a>
+                    </li>
+                    <li><a href="http://www.tudou.com/list/index.html">片库</a>
+                    </li>
+                    <li><a href="http://www.tudou.com/top/rank.html">排行榜</a>
+                    </li>
+                    <li><a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.tudou.android&amp;g_f=991763" target="_blank" id="navAppDownload">APP</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="content">
+                    <div class="pack-focus">
+                        <div class="pack simple">
+                            <div class="con"><a style="background-image: url(&quot;http://u3.tdimg.com/4/41/139/118514226102841324271332911666266215894.jpg&quot;);" class="cover" href="http://www.tudou.com/albumplay/8gIBN9P0p2k/X2xuA-7_LFE.html" target="new" tui-page-x="true" r2="1"><span class="bg"></span><h3 class="tit">&lt;女神的新衣&gt;韩国萌正太来袭
+<p class="desc">张馨予新衣竞价创新高，贾静雯遭淘汰！</p></h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack simple">
+                            <div class="con"><a style="background-image: url(&quot;http://u1.tdimg.com/2/192/9/_117303561943288203608657880455694897532.jpg&quot;);" class="cover" href="http://www.tudou.com/albumplay/Yfgfyi8TfE4/mAfO11T8-PM.html" target="new" tui-page-x="true" r2="1"><span class="bg"></span><h3 class="tit">&lt;剩余公主&gt;第6集</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack simple">
+                            <div class="con"><a style="background-image: url(&quot;http://u2.tdimg.com/7/95/156/_2161769499322289642206928232572564167.jpg&quot;);" class="cover" href="http://www.tudou.com/albumplay/eUwa836hKqA/lXGAvJ72M3U.html" target="new" tui-page-x="true" r2="1"><span class="bg"></span><h3 class="tit">&lt;借用你的爱&gt;第7集</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack simple">
+                            <div class="con"><a style="background-image: url(&quot;http://u2.tdimg.com/5/110/166/_87156037020245787023057722520850243895.jpg&quot;);" class="cover" href="http://www.tudou.com/albumplay/v1cIDrJouKE/yHeT5SDBLO8.html" target="new" tui-page-x="true" r2="1"><span class="bg"></span><h3 class="tit">细数最傻缺公放歌曲</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack simple">
+                            <div class="con"><a style="background-image: url(&quot;http://u2.tdimg.com/1/52/38/_42264678991388180722684446090110290851.jpg&quot;);" class="cover" href="http://www.tudou.com/albumplay/LN2umj8JZlQ/jKCAv7cwNZU.html" target="new" tui-page-x="true" r2="1"><span class="bg"></span><h3 class="tit">亲情动画TOP10</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack simple">
+                            <div class="con"><a style="background-image: url(&quot;http://u4.tdimg.com/1/97/65/_24750920573857843845546904020241899081.jpg&quot;);" class="cover" href="http://www.tudou.com/albumplay/T6Ekp4B8GTM/OUq2slTsEo8.html" target="new" tui-page-x="true" r2="1"><span class="bg"></span><h3 class="tit">&lt;婚姻料理&gt;第18集</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack simple">
+                            <div class="con"><a style="background-image: url(&quot;http://u4.tdimg.com/3/108/173/133488575558352864933542051023173029003.jpg&quot;);" class="cover" href="http://www.tudou.com/listplay/d-Yfs0E8Ssg/23ml1TP8ons.html" target="new" tui-page-x="true" r2="1"><span class="bg"></span><h3 class="tit">跟坏男人学泡妞神技</h3></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="section">
+                <div class="caption">
+                    <h2>今日热门</h2><a class="more" href="http://www.tudou.com/list/index.html"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a style="background-image: url(&quot;http://u1.tdimg.com/0/218/218/67325863471668198438173452140127731120.jpg&quot;);" class="cover" href="http://www.tudou.com/listplay/QCI1gHr2aAs/bSuD_oej_Lk.html" target="new" tui-page-x="true" r2="1"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/QCI1gHr2aAs/bSuD_oej_Lk.html" target="_blank" tui-page-x="true">城管与大妈当街互跪</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a style="background-image: url(&quot;http://u2.tdimg.com/3/252/44/156206502639093821999589040490769442293_r2.jpg&quot;);" class="cover" href="http://www.tudou.com/listplay/LI0Eapw4xuw/bv3JElpsD8Q.html" target="new" tui-page-x="true"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/LI0Eapw4xuw/bv3JElpsD8Q.html" target="_blank" tui-page-x="true">&lt;古剑奇谭&gt;穿帮06</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a style="background-image: url(&quot;http://u3.tdimg.com/2/88/88/48313668663766416953187713437162324122.jpg&quot;);" class="cover" href="http://www.tudou.com/listplay/ME-EXvM75Co/gNoAQY8mthQ.html" target="new" tui-page-x="true" r2="1"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/ME-EXvM75Co/gNoAQY8mthQ.html" target="_blank" tui-page-x="true">妹子KTV销魂热舞</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a style="background-image: url(&quot;http://u2.tdimg.com/5/93/118/58972087279285068283445616334706824425_r2.jpg&quot;);" class="cover" href="http://www.tudou.com/listplay/62lvMV7EZtU/_8cHrvnN73E.html" target="new" tui-page-x="true"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/62lvMV7EZtU/_8cHrvnN73E.html" target="_blank" tui-page-x="true">超逼真割肾现场整蛊</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a style="background-image: url(&quot;http://u2.tdimg.com/3/179/191/67530046893833792775821525371727069333.jpg&quot;);" class="cover" href="http://www.tudou.com/listplay/fhD8_tAIE8A/jD-En4nO4Ok.html" target="new" tui-page-x="true" r2="1"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/fhD8_tAIE8A/jD-En4nO4Ok.html" target="_blank" tui-page-x="true">柯震东被索赔千万</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a style="background-image: url(&quot;http://u1.tdimg.com/0/234/61/_39094522359301488345045796671972748360.jpg&quot;);" class="cover" href="http://www.tudou.com/programs/view/toJzOoe-gqM/" target="new" tui-page-x="true" r2="1"><span class="sign"><span class="bg"></span><span class="i">05:02</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/toJzOoe-gqM/" target="_blank" tui-page-x="true">张靓颖催泪新单曝光</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="caption">
+                    <h2>自频道广场</h2><a class="more" href="http://imake.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-user">
+                        <div class="pack playlist">
+                            <div class="con"><a style="background-image: url(&quot;http://u4.tdimg.com/3/42/248/38769458935545873611247079785788323303.jpg&quot;);" class="cover" href="http://www.tudou.com/listplay/HwJT4BkmKgI/1tfnCxHav2s.html" target="new" tui-page-x="true" r2="1"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/HwJT4BkmKgI/1tfnCxHav2s.html" target="_blank" tui-page-x="true">被绑架的冰桶挑战</a></h3>
+                            </div>
+                            <div class="thumb">
+                                <a style="background-image: url(&quot;http://u2.tdimg.com/7/224/7/_149370723619760444518072260265522129007.jpg&quot;);" href="http://www.tudou.com/home/_354968213/" class="user" target="_blank"></a><a href="http://www.tudou.com/home/_354968213/" target="_blank">大成同盟网络科技</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-user">
+                        <div class="pack playlist">
+                            <div class="con"><a style="background-image: url(&quot;http://u2.tdimg.com/7/30/251/117128591819686670504794303017346796977.gif&quot;);" class="cover" href="http://www.tudou.com/listplay/vofJPEvpxjc/VMyv3ktvTAE.html" target="new" tui-page-x="true"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/vofJPEvpxjc/VMyv3ktvTAE.html" target="_blank" tui-page-x="true">逗比祸害地球人</a></h3>
+                            </div>
+                            <div class="thumb">
+                                <a style="background-image: url(&quot;http://u4.tdimg.com/1/1/28/162171357504635368689981276513329224511.jpg&quot;);" href="http://www.tudou.com/home/_364974696/" class="user" target="_blank"></a><a href="http://www.tudou.com/home/_364974696/" target="_blank">开心就好编辑部</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-user">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/HPY8JpumoCU/" target="new" tui-page-x="true" data-r2="http://g2.tdimg.com/0b239a93adea7e1736503d4d9557ac13/t_2.jpg" data-lazy="http://i2.tdimg.com/206/114/009/p.jpg"><span class="sign"><span class="bg"></span><span class="i">05:30</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/HPY8JpumoCU/" target="_blank" tui-page-x="true">当男人也有了男闺蜜</a></h3>
+                            </div>
+                            <div class="thumb">
+                                <a href="http://www.tudou.com/home/OopsQueenie/" class="user lazyImg" target="_blank" data-lazy="http://u2.tdimg.com/9/82/235/154618721490212285176099055459523058549.jpg"></a><a href="http://www.tudou.com/home/OopsQueenie/" target="_blank">奎霓说得出</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-user">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/R2bmqwp33yk/" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/5/185/220/_115934416611884308959169045794714000655.jpg"><span class="sign"><span class="bg"></span><span class="i">07:28</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/R2bmqwp33yk/" target="_blank" tui-page-x="true">土匪快交出阳具</a></h3>
+                            </div>
+                            <div class="thumb">
+                                <a href="http://www.tudou.com/home/ShuiyuWhospeak/" class="user lazyImg" target="_blank" data-lazy="http://u1.tdimg.com/6/83/59/128037794316359467462893445849527046016.jpg"></a><a href="http://www.tudou.com/home/ShuiyuWhospeak/" target="_blank">谁语Whospeak</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="caption">
+                    <h2>电视剧</h2><a class="more" href="http://tv.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/8piyhY8PoL8/7IcTh9Ku0QM.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/6/218/156/144422414872905046586549452539518776486.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至24集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/8piyhY8PoL8/7IcTh9Ku0QM.html" target="_blank" tui-page-x="true">我的特一营</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/T6Ekp4B8GTM/OUq2slTsEo8.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/3/83/10/_121853595701906985220283803572058224813.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至18集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/T6Ekp4B8GTM/OUq2slTsEo8.html" target="_blank" tui-page-x="true">婚姻料理</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/3EpB8cLeu-M/BJ2c8V3Gx5Q.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/3/188/233/_29552780624993222852217830353086217783.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至29集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/3EpB8cLeu-M/BJ2c8V3Gx5Q.html" target="_blank" tui-page-x="true">雪豹坚强岁月</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/2foQYw5xa0E/6giteljMdtg.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/4/93/227/_83255767147060241952102866051578689654.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至16集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/2foQYw5xa0E/6giteljMdtg.html" target="_blank" tui-page-x="true">球爱酒吧</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/zgdaPAjRz1s/lz_ugB1OiiI.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/5/168/132/_133129869591993205990541523256466622095.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至15集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/zgdaPAjRz1s/lz_ugB1OiiI.html" target="_blank" tui-page-x="true">使徒行者</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/INilHxINrs4/McGwVLXcWu4.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/5/211/13/43433859776875721872883483689318265685.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至5集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/INilHxINrs4/McGwVLXcWu4.html" target="_blank" tui-page-x="true">大药坊</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>动漫</h2><a class="more" href="http://cartoon.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/pCqPwSDgy7o.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/2/14/219/41278810307200222170295015259573659292.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至24集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/pCqPwSDgy7o.html" target="_blank" tui-page-x="true">排球少年</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/DTTu59W1Lyc.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/8/64/2/40210424981939886437639010286485567818.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至11集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/DTTu59W1Lyc.html" target="_blank" tui-page-x="true">少年好莱坞</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/eC1NdBMVGAk.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/9/167/138/_113183880040139042879879325146268866009.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至4集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/eC1NdBMVGAk.html" target="_blank" tui-page-x="true">火力少年王之传奇再现</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/YiWcAL0mKck.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/5/7/9/_31860696488134471037098803201987180745.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至10集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/YiWcAL0mKck.html" target="_blank" tui-page-x="true">战国BASARA III</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/Lqfme5hSolM.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/0/130/22/111648414327661507242591939018144075330.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至597集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/Lqfme5hSolM.html" target="_blank" tui-page-x="true">火影忍者（两集连播）</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/Y45TVT_6PZ8.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/9/90/34/36361015222921063212670321943054597019.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至15集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/Y45TVT_6PZ8.html" target="_blank" tui-page-x="true">侠岚 第五季</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>音乐</h2><a class="more" href="http://music.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/yU0_nbKYFEA/" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/1/53/37/_44917625853007851888272190224976912741.jpg"><span class="sign"><span class="bg"></span><span class="i">05:22</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/yU0_nbKYFEA/" target="_blank" tui-page-x="true">和明星说Sorry</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/DzJMtuW-8NE/" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/3/141/162/39811369987996520677193321744687520363.jpg"><span class="sign"><span class="bg"></span><span class="i">44:27</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/DzJMtuW-8NE/" target="_blank" tui-page-x="true">摇滚纪录片</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/B2Jp-a7lCGk/TXgyWJGt7Es.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/1/126/255/_89731681307684621293802279271285716011.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/B2Jp-a7lCGk/TXgyWJGt7Es.html" target="_blank" tui-page-x="true">EXO中秋晚会</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/dEYbI1gil-E/l-fKlm0hai4.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/1/26/232/135906215001462990258839051599742101.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/dEYbI1gil-E/l-fKlm0hai4.html" target="_blank" tui-page-x="true">T-ara《Sugar Free》</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/f2atw-7z7Mk/" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/3/3/40/7993695204294361442857837433154310863.jpg"><span class="sign"><span class="bg"></span><span class="i">03:34</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/f2atw-7z7Mk/" target="_blank" tui-page-x="true">安心亚热舞秀美腿</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/NcBemUvdXPs/" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/4/238/31/_60384565567465211723129350544984690704.jpg"><span class="sign"><span class="bg"></span><span class="i">04:39</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/NcBemUvdXPs/" target="_blank" tui-page-x="true">泰国美腿团劲暴热舞</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>电影</h2><a class="more" href="http://movie.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack album">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/bQXvIvYdo8A.html" target="new" tui-page-x="true" data-r2="http://r2.ykimg.com/050E000053ACE3CE67379F14F604853C" data-lazy="http://u2.tdimg.com/7/227/3/168298811611874700098683424994880500117.jpg"><span class="sign"><span class="bg"></span><span class="i">正片</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/bQXvIvYdo8A.html" target="_blank" tui-page-x="true">美国骗局</a></h3>
+                                <p>骗术大师猫鼠游戏</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack album">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/9kUNka6cgxg/sGt2ZbgEN84.html" target="new" tui-page-x="true" data-r2="http://r2.ykimg.com/050E000053E46E1E67379F1594082A7C" data-lazy="http://u1.tdimg.com/4/201/244/143180154177609955003912116496460470064.jpg"><span class="sign"><span class="bg"></span><span class="i">正片</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/9kUNka6cgxg/sGt2ZbgEN84.html" target="_blank" tui-page-x="true">笔仙3</a></h3>
+                                <p>江一燕演绎灵异母女情</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack album">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/yWbNq7v2hl4.html" target="new" tui-page-x="true" data-r2="http://r3.ykimg.com/050E00005350A06267379F50C80D63AD" data-lazy="http://u3.tdimg.com/4/212/172/_82843503941181118337355093460885587874.jpg"><span class="sign"><span class="bg"></span><span class="i">正片</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/yWbNq7v2hl4.html" target="_blank" tui-page-x="true">冰封:重生之门</a></h3>
+                                <p>甄子丹冰封穿越</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack album">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/QtmyLL8mAB0.html" target="new" tui-page-x="true" data-r2="http://r3.ykimg.com/050E00005350E6DF67379F0508081888" data-lazy="http://u1.tdimg.com/4/26/186/37353774494108606081842605559759020624.jpg"><span class="sign"><span class="bg"></span><span class="i">正片</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/QtmyLL8mAB0.html" target="_blank" tui-page-x="true">催眠大师</a></h3>
+                                <p>徐峥为你揭秘奇幻催眠术</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>综艺</h2><a class="more" href="http://zy.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/8gIBN9P0p2k/X2xuA-7_LFE.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/2/154/182/25122012931204066980093406936004144392.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至09-13</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/8gIBN9P0p2k/X2xuA-7_LFE.html" target="_blank" tui-page-x="true">土豪买家力捧张馨予</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/aMHxhVE_WpE/4e3O42_CDUo.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/6/82/196/137337951886048219727640333870142402776.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至09-12</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/aMHxhVE_WpE/4e3O42_CDUo.html" target="_blank" tui-page-x="true">贾玲遇真爱“出嫁”</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/oTUUaDNddTc/7KPbMpv8lFg.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/8/204/20/_57550074980882514256523133016771002238.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至09-09</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/oTUUaDNddTc/7KPbMpv8lFg.html" target="_blank" tui-page-x="true">型男迷呆女评委</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/CCvkI_4OYHA/B8mSBv-lShM.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/5/190/15/112666939812122292907011904283187617425.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/CCvkI_4OYHA/B8mSBv-lShM.html" target="_blank" tui-page-x="true">中美好故事大PK</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/DRrrT0nuzas/OOdUaCdV00o.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/9/91/79/167956583369270854557439687226037538889.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至09-13</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/DRrrT0nuzas/OOdUaCdV00o.html" target="_blank" tui-page-x="true">郭敬明喜获大将</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/rz4wL5hOJf4/HBxW6ebQoGI.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/6/198/222/124587789196086461906118924441178175356.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至09-13</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/rz4wL5hOJf4/HBxW6ebQoGI.html" target="_blank" tui-page-x="true">TFBOYS仿四大天王</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>娱乐</h2><a class="more" href="http://ent.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/Q8dZgUPpb5M/h7rllpA6H3s.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/2/144/151/_54580338524256398752463864803359176852.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/Q8dZgUPpb5M/h7rllpA6H3s.html" target="_blank" tui-page-x="true">港女星不满总演强暴</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/ygxAnd_Zqcw/0f70Z7JWgGw.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/4/83/61/145319809875688996233456870057628332974.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/ygxAnd_Zqcw/0f70Z7JWgGw.html" target="_blank" tui-page-x="true">曹格爱妻晒儿女新照</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/uEzdxom13wk/aLoQC_89qmQ.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/4/144/28/_105087284646047751433733215878676430884.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/uEzdxom13wk/aLoQC_89qmQ.html" target="_blank" tui-page-x="true">泰国教科书现AV女优</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/ZmXEdr65OFI/bIPvdej5eP4.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/1/135/164/_39912813590238634341414494036674012371.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/ZmXEdr65OFI/bIPvdej5eP4.html" target="_blank" tui-page-x="true">春晚主持团仅剩3人</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/8efv61xKMP8/F0yu8iSeT-8.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/2/90/216/_149734663204937309017401537574362529352.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/8efv61xKMP8/F0yu8iSeT-8.html" target="_blank" tui-page-x="true">韩星偷食证据遭起底</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/Sb4i1iUkhF8/8LW2WLEG9yE.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/6/80/111/_80666238878801356380467318869056940746.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/Sb4i1iUkhF8/8LW2WLEG9yE.html" target="_blank" tui-page-x="true">刘嘉玲赞星爷有才华</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>搞笑</h2><a class="more" href="http://fun.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/vofJPEvpxjc/VMyv3ktvTAE.html" target="new" tui-page-x="true" data-lazy="http://u2.tdimg.com/7/30/251/117128591819686670504794303017346796977.gif"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/vofJPEvpxjc/VMyv3ktvTAE.html" target="_blank" tui-page-x="true">这智商不能活在地球</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/TFiUIFefFFs/Tto3p8xkAmU.html" target="new" tui-page-x="true" data-lazy="http://u4.tdimg.com/1/1/181/22606224914590444697795371080460775131_r2.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/TFiUIFefFFs/Tto3p8xkAmU.html" target="_blank" tui-page-x="true">臣妾是真的不敢跳哇</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/yDAr7mb13L8/eSRIAFYdB-4.html" target="new" tui-page-x="true" data-lazy="http://u2.tdimg.com/1/77/123/26987230355537882799374856709910795941_r2.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/yDAr7mb13L8/eSRIAFYdB-4.html" target="_blank" tui-page-x="true">神吐槽最淫荡的济公</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/QgV5mh69tLM/zX7s48DVhWg.html" target="new" tui-page-x="true" data-lazy="http://u2.tdimg.com/1/117/255/_75154852491647897469538440103392428871_r2.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/QgV5mh69tLM/zX7s48DVhWg.html" target="_blank" tui-page-x="true">史上最奇葩的面试</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/lgRlzGnNbT0/nRpJZmuaQUo.html" target="new" tui-page-x="true" data-lazy="http://u3.tdimg.com/0/1/208/65137863440911272936193689786105489890_r2.jpg "><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/lgRlzGnNbT0/nRpJZmuaQUo.html" target="_blank" tui-page-x="true">古剑穿帮镜头第十弹</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/iimjWCqRTAg/Z9ZoPWLBizM.html" target="new" tui-page-x="true" data-lazy="http://u1.tdimg.com/0/170/41/42317932701124081330521073353871829680_r2.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/iimjWCqRTAg/Z9ZoPWLBizM.html" target="_blank" tui-page-x="true">星爷版&lt;偏偏喜欢你&gt;</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>时尚</h2><a class="more" href="http://fashion.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/WOlpB34wZIc/" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/4/217/239/79293137337744524101715493051026630784.jpg"><span class="sign"><span class="bg"></span><span class="i">01:17</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/WOlpB34wZIc/" target="_blank" tui-page-x="true">探秘巴黎时装灵魂</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/HKvXH1EXxec/CzbS_d_pOfI.html" target="new" tui-page-x="true" data-lazy="http://u4.tdimg.com/3/169/44/_26795809041560851769246428741738694453.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/HKvXH1EXxec/CzbS_d_pOfI.html" target="_blank" tui-page-x="true">看女人整容全过程</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://zone.tudou.com/newyorkszz/" target="_blank" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/7/143/125/_105082494085126465878378767731467947037.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://zone.tudou.com/newyorkszz/" target="_blank" tui-page-x="true">2015春夏纽约时装周</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/8P-6LnVd6w0/LC8KOek_q14.html" target="new" tui-page-x="true" data-lazy="http://u2.tdimg.com/3/173/102/_18840401792071742593514628832809588983.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/8P-6LnVd6w0/LC8KOek_q14.html" target="_blank" tui-page-x="true">周末甜美约会妆</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/dSzFSh4CxTY/" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/5/107/80/_121729925668613540737558469928074789975.jpg"><span class="sign"><span class="bg"></span><span class="i">01:21</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/dSzFSh4CxTY/" target="_blank" tui-page-x="true">维密天使曝床上秘事</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/n-QTXOa_fqM/SiNPda5NEl8.html" target="new" tui-page-x="true" data-lazy="http://u2.tdimg.com/9/204/203/_21659042684491990797155443492432071079.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/n-QTXOa_fqM/SiNPda5NEl8.html" target="_blank" tui-page-x="true">王心凌整形变锥子脸</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>乐活</h2><a class="more" href="http://life.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/EZxBtDTA0J0.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/9/35/3/28099353975754490509201280452715321989.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/EZxBtDTA0J0.html" target="_blank" tui-page-x="true">懒人手臂增肌训练</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://life.tudou.com/" target="_blank" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/0/236/52/120403383310906686175655603764902592360.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://life.tudou.com/" target="_blank" tui-page-x="true">妹子坐过山车太激动</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/i9lVks6ZWWc.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/0/21/41/112572377599327583322682497404512430.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/i9lVks6ZWWc.html" target="_blank" tui-page-x="true">完美翘臀打造指南</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/58c8meY_rRE/bftp1lg2SzM.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/3/5/179/_90360220005846529269741421217326468453.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/58c8meY_rRE/bftp1lg2SzM.html" target="_blank" tui-page-x="true">小青蛙怒吼的那一刻</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>游戏·体育</h2><a class="more" href="http://game.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://sports.tudou.com/" target="_blank" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/3/55/224/1619166675229543357447251729947580073.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://sports.tudou.com/" target="_blank" tui-page-x="true">UFC冠军恐怖重扫</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/wsE4T-Fcamk/8zg7oUsZ5rg.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/1/197/129/111299666685692427415872361489639130071.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/wsE4T-Fcamk/8zg7oUsZ5rg.html" target="_blank" tui-page-x="true">皇马惨遭两连败羞辱</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://game.tudou.com/" target="_blank" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/8/1/134/34567474133457104791671944142344128138.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://game.tudou.com/" target="_blank" tui-page-x="true">wow战争之王EP3</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/xzuDGNC9lqA/" target="new" tui-page-x="true" data-r2="http://g3.tdimg.com/206063550/diy_t_1.jpg" data-lazy="http://g3.tdimg.com/206063550/diy_p_1.jpg"><span class="sign"><span class="bg"></span><span class="i">06:59</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/xzuDGNC9lqA/" target="_blank" tui-page-x="true">屁王马里奥</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>汽车·科技</h2><a class="more" href="http://auto.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/pBhMSwTE7V4/JI0_9IxlrHw.html" target="new" tui-page-x="true" data-r2="http://g2.tdimg.com/d8347295880dc70965384a8de4f99fc5/t_2.jpg" data-lazy="http://i4.tdimg.com/203/015/453/p.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/pBhMSwTE7V4/JI0_9IxlrHw.html" target="_blank" tui-page-x="true">搞怪车24小时耐力赛</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://auto.tudou.com/" target="_blank" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/2/116/117/25859687152956353985818589437117021422.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://auto.tudou.com/" target="_blank" tui-page-x="true">令人喷血的车展现场</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://it.tudou.com/" target="_blank" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/5/162/56/58311381904317157527289490853177594925.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://it.tudou.com/" target="_blank" tui-page-x="true">iPhone6购买全攻略</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/CbjxabCyyDk/4CUWnIuQ08g.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/1/87/116/_116517029397457636986482473949962638261.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/CbjxabCyyDk/4CUWnIuQ08g.html" target="_blank" tui-page-x="true">苹果全程中文视频</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>纪实</h2><a class="more" href="http://jilupian.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://jilupian.tudou.com/" target="_blank" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/7/195/210/_134595957211561146347310841256673833017.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://jilupian.tudou.com/" target="_blank" tui-page-x="true">马文徒手戏毒蛇</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/eM5q7AjZUlc/W-m42vHCRc4.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/6/163/194/64951304098534280972370367914994355856.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至106集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/eM5q7AjZUlc/W-m42vHCRc4.html" target="_blank" tui-page-x="true">喜剧之王周星驰</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/hqtp6W5XLN8/PSmygdEv1BA.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/7/144/135/_17359676035378870442957676671917497077.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至5集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/hqtp6W5XLN8/PSmygdEv1BA.html" target="_blank" tui-page-x="true">马航370半年祭</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/flqhz8onc7s/c4Kwu6zPaMo.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/0/182/231/123340314361614217209023601807173102180.jpg"><span class="sign"><span class="bg"></span><span class="i">更新至14集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/flqhz8onc7s/c4Kwu6zPaMo.html" target="_blank" tui-page-x="true">雷探长与神兽对话</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="caption">
+                    <h2>成长</h2><a class="more" href="http://edu.tudou.com/"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://edu.tudou.com/" target="_blank" tui-page-x="true" r2="1" data-lazy="http://u3.tdimg.com/4/179/60/148609504050476932752412440511194052934.gif"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://edu.tudou.com/" target="_blank" tui-page-x="true">探访不戴套血腥搏斗</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack playlist">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/listplay/gL7ZSZtrgVg/nP8D8E_i7Wo.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u2.tdimg.com/3/252/9/43220834657586658933129242985288239633.jpg"><span class="sign"><span class="bg"></span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/listplay/gL7ZSZtrgVg/nP8D8E_i7Wo.html" target="_blank" tui-page-x="true">费曼拒绝沟通怎么办</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/ScD1rwu1PYU/" target="new" tui-page-x="true" r2="1" data-lazy="http://u4.tdimg.com/9/176/39/5072353910004591230915958422984358839.jpg"><span class="sign"><span class="bg"></span><span class="i">08:04</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/ScD1rwu1PYU/" target="_blank" tui-page-x="true">如何PS金馆长の笑</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-con">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/albumplay/ASD0ofrorBY/SGpFczMr33g.html" target="new" tui-page-x="true" r2="1" data-lazy="http://u1.tdimg.com/8/86/9/58936478227136933090654913460408751348.jpg"><span class="sign"><span class="bg"></span><span class="i">全20集</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/albumplay/ASD0ofrorBY/SGpFczMr33g.html" target="_blank" tui-page-x="true">我们是性杂食动物嘛</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="caption">
+                    <h2>精选自频道</h2>
+                </div>
+                <div class="content">
+                    <div class="sub-user">
+                        <div class="sub-con">
+                            <h3>九号仓艺术空间</h3>
+                            <div class="sub-pic">
+                                <a class="pic lazyImg" href="http://www.tudou.com/home/_106941941/" target="_blank" data-lazy="http://u4.tdimg.com/1/209/253/111237518412603800149229962456523731891.jpg"></a>
+                            </div>
+                            <div class="sub-btn">
+                                <div class="gBtnSub" data-id="106941941" data-type="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-user">
+                        <div class="sub-con">
+                            <h3>大成同盟网络科技</h3>
+                            <div class="sub-pic">
+                                <a class="pic lazyImg" href="http://v.tudou.com/_354968213/" target="_blank" data-lazy="http://u2.tdimg.com/7/224/7/_149370723619760444518072260265522129007.jpg"></a>
+                            </div>
+                            <div class="sub-btn">
+                                <div class="gBtnSub" data-id="354968213" data-type="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-user">
+                        <div class="sub-con">
+                            <h3>有神网络</h3>
+                            <div class="sub-pic">
+                                <a class="pic lazyImg" href="http://www.tudou.com/home/jhxdysm/" target="_blank" data-lazy="http://u2.tdimg.com/7/38/160/_80882666098421465748794805992783967027.jpg"></a>
+                            </div>
+                            <div class="sub-btn">
+                                <div class="gBtnSub" data-id="341184766" data-type="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-user">
+                        <div class="sub-con">
+                            <h3>今天我们说美国</h3>
+                            <div class="sub-pic">
+                                <a class="pic lazyImg" href="http://www.tudou.com/home/_417843906/" target="_blank" data-lazy="http://u1.tdimg.com/6/207/243/127199692693521178311421306682699651276.jpg"></a>
+                            </div>
+                            <div class="sub-btn">
+                                <div class="gBtnSub" data-id="417843906" data-type="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-user">
+                        <div class="sub-con">
+                            <h3>阿良良木健</h3>
+                            <div class="sub-pic">
+                                <a class="pic lazyImg" href="http://v.tudou.com/happybasterd/" target="_blank" data-lazy="http://u2.tdimg.com/9/194/213/20927374040456248869795185431206120689.jpg"></a>
+                            </div>
+                            <div class="sub-btn">
+                                <div class="gBtnSub" data-id="24733319" data-type="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-user">
+                        <div class="sub-con">
+                            <h3>谁语Whospeak</h3>
+                            <div class="sub-pic">
+                                <a class="pic lazyImg" href="http://v.tudou.com/ShuiyuWhospeak/" target="_blank" data-lazy="http://u1.tdimg.com/6/83/59/128037794316359467462893445849527046016.jpg"></a>
+                            </div>
+                            <div class="sub-btn">
+                                <div class="gBtnSub" data-id="119219835" data-type="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="caption">
+                    <h2>用户推荐</h2><a class="more" href="http://www.tudou.com/list/index.html"><i class="icon-arr-right"></i></a>
+                </div>
+                <div class="content">
+                    <div class="pack-user">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/HdZ_AcpPTdg/" target="new" tui-page-x="true" data-lazy="http://g3.tdimg.com/e7bfc9f83f9b7b782eaafab329ec245d/t_2.jpg"><span class="sign"><span class="bg"></span><span class="i">47:18</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/HdZ_AcpPTdg/" target="_blank" tui-page-x="true">[值得这45分钟]WE.Fly100% vs Yumiko</a></h3>
+                                <p>被挖：10,475次
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <a href="http://www.tudou.com/home/loveqiaolin/" class="user lazyImg" target="_blank" data-lazy="http://u4.tdimg.com/3/5/44/69148467223210152230721635428293992143.jpg"></a><a href="http://www.tudou.com/home/loveqiaolin/" target="_blank">love桥林</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-user">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/eSRIAFYdB-4/" target="new" tui-page-x="true" data-lazy="http://g2.tdimg.com/206077337/diy_t_1.jpg"><span class="sign"><span class="bg"></span><span class="i">14:00</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/eSRIAFYdB-4/" target="_blank" tui-page-x="true">唐唐神吐槽:最淫荡的济公 【Big笑工坊】第七十五期</a></h3>
+                                <p>被挖：1,565次
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <a href="http://www.tudou.com/home/_343106556/" class="user lazyImg" target="_blank" data-lazy="http://u2.tdimg.com/1/118/150/47135725621670630508756750652631249601.jpg"></a><a href="http://www.tudou.com/home/_343106556/" target="_blank">唐唐_阿天</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-user">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/FMceQTmVXyg/" target="new" tui-page-x="true" data-lazy="http://g4.tdimg.com/206038155/diy_t_1.jpg"><span class="sign"><span class="bg"></span><span class="i">24:47</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/FMceQTmVXyg/" target="_blank" tui-page-x="true">三生三世十里桃花mv【正片+花絮】</a></h3>
+                                <p>被转：214次
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <a href="http://www.tudou.com/home/_114172850/" class="user lazyImg" target="_blank" data-lazy="http://u1.tdimg.com/6/170/90/2441867852622912311437652006186220056.jpg"></a><a href="http://www.tudou.com/home/_114172850/" target="_blank">夏日烟花的眼泪</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pack-user">
+                        <div class="pack">
+                            <div class="con"><a class="cover lazyImg" href="http://www.tudou.com/programs/view/nOCfbRSclYc/" target="new" tui-page-x="true" data-lazy="http://g3.tdimg.com/206178234/diy_t_1.jpg"><span class="sign"><span class="bg"></span><span class="i">02:23</span></span></a>
+                            </div>
+                            <div class="tit">
+                                <h3><a href="http://www.tudou.com/programs/view/nOCfbRSclYc/" target="_blank" tui-page-x="true">非凡网 - FIFA 15 Official TV Commercial</a></h3>
+                                <p>被转：131次
+                                </p>
+                            </div>
+                            <div class="thumb">
+                                <a href="http://www.tudou.com/home/easportsfifa/" class="user lazyImg" target="_blank" data-lazy="http://u3.tdimg.com/2/227/26/113803807141292875135725842707271035322.jpg"></a><a href="http://www.tudou.com/home/easportsfifa/" target="_blank">EASPORTS_FIFA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 全局底导航 -->
+
+
+            <div class="g-bot" id="gBot">
+                <ul class="link">
+                    <li><a href="http://www.tudou.com/about/cn/" target="_blank">关于</a>
+                    </li>
+                    <li><a href="http://www.tudou.com/feedback/xplay/xplayFeedback.html" target="_blank">反馈</a>
+                    </li>
+                    <li><a href="http://www.tudou.com/service/index.html?dv=pc" target="_blank">帮助</a>
+                    </li>
+                    <li><a href="http://yun.tudou.com/" target="_blank">穿越</a>
+                    </li>
+                    <li><a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.tudou.android&amp;g_f=991763" target="_blank" id="gBotAppDownload">App下载</a>
+                    </li>
+                </ul>
+                <p class="copyright">Copyright © 2005-2014 土豆</p>
+            </div>
+        </div>
+
+        <!-- 无刷新页面载入的容器 -->
+        <div class="x-page" id="xPageGuest" data-role="guest"></div>
+
+        <!-- 无刷新需要video激活操作权限 -->
+        <video class="x-video" id="video" style="display:none;"></video>
+
+        <div class="g-gotop show" id="gGotop"><b></b><i class="icon-arr-up"></i>
+        </div>
+    </div>
+
+    <script src="tudou_demo_files/lite_5.js" id="libjsnode"></script>
+    <script src="tudou_demo_files/m_10.js"></script>
+    <script src="tudou_demo_files/index_12.js"></script>
+
+
+
+    <iframe src="tudou_demo_files/storage.html" style="position:absolute;left:-9999px;bottom:0;width:0;height:0;visibility:hidden;"></iframe>
+</body>
+<!-- latest modify 1410703930537 -->
+<!-- PHONE END -->
+
+</html>
